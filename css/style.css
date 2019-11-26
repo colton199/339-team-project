@@ -14,13 +14,14 @@ body{
 h1{
   font-size: 20px;
   text-align: left;
-  padding-left: 125px;
+  padding-left: 150px;
 }
 
 h2{
   font-size: 32px;
   line-height: 1.5;
-  text-align: center;
+  text-align: left;
+  margin:0px;
 }
 
 nav ul{
@@ -320,7 +321,7 @@ border-width: 0px 1.5px 1.5px 1.5px;
 
 .project-6-image{
 grid-area: 5 / 3 / 6 / 4; 
-margin bottom: auto;
+margin-bottom: auto;
 border: 1.5px solid black;
 border-width: 1.5px 1.5px 0px 1.5px;
 }
@@ -358,6 +359,7 @@ border-width: 0px 1.5px 1.5px 1.5px;
   grid-column: 2/3;
 }
 
+/********* project styling ***********/
 
 .row_project{
   grid-row: 4/5;
@@ -382,7 +384,7 @@ border-width: 0px 1.5px 1.5px 1.5px;
 
 .project_flex_item2{
   width:100px;
-  background-color:#dcdfe6;
+  background-color:#f2f3f5;
   margin: auto 50px auto 0px;
   padding: 10px;
   border-radius: 8px;
@@ -395,10 +397,53 @@ a.p_button:link, a.p_button:visited {
 a.p_button:hover, a.p_button:active {
   color:#709e79;
 }
-.main_about{
+
+
+/********* authors styling ***********/
+
+
+.main_authors{
   grid-row: 5/6;
   grid-column: 2/3;
 }
+
+.authors_flex{
+  display:flex;
+  flex-direction:row;
+  flex-wrap:wrap;
+  justify-content:center;
+  background-color:#dfe6ed;
+}
+
+.author_box img{
+  padding:20px 20px 0px 20px;
+}
+
+.author_box p{
+  margin:0px 0px 5px 0px;
+  padding:0px 5px 0px 5px;
+  font-size: 13px;
+  color:#3d3d3d;
+  width:200px;
+}
+
+.author_box a{
+  margin:0px;
+  font-size: 13px;
+}
+
+.author_box a:link, .author_box a:visited{
+  color:#00274c;
+}
+
+.author_box a:hover, .author_box a:active {
+  color:#709e79;
+}
+
+
+/********* publication styling ***********/
+
+
 
 .row_publication{
   grid-row: 6/7;
@@ -423,7 +468,7 @@ a.p_button:hover, a.p_button:active {
 
 .publication_flex_item2{
   width:100px;
-  background-color:#dcdfe6;
+  background-color: #f2f3f5;
   margin: auto 0px auto 50px;
   padding: 10px;
   border-radius: 8px;
