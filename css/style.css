@@ -7,7 +7,8 @@ body{
   font-size: 18px;
   margin: 0;
   padding: 0;
-  font-family: 'Comfortaa', cursive;
+  font-family: 'baskerville';
+  text-align:center;
 }
 
 h1{
@@ -69,7 +70,7 @@ footer{
   background-color: black;
   color: white;
   grid-column: 1 / -1;  /*Can you explain what this does?*/
-  grid-row: 7/ span 1;   /*Can you rewrite it?*/
+  grid-row: 7/8;   /*Can you rewrite it?*/
   text-align: center;
 }
 
@@ -77,14 +78,15 @@ footer{
 .container{
   display: grid;
   grid-template-columns: 1fr 5fr 1fr;
-  grid-template-rows: 75px auto auto auto auto auto auto auto auto 100px;
+  grid-template-rows: 75px 400px auto 75px auto 75px 100px;
   width: 100vw;
   grid-row-gap: 15px;
+  background-color:white;
 }
 
 .nav{
    /*Your code here */
-  background-color: #ddd;
+  background-color: white;
   grid-column-start: 1;
   grid-column-end: 4;
   grid-row-start:1;
@@ -96,14 +98,14 @@ footer{
 
 .header{
 background-attachment: fixed; /* Parallax effect */
-background-image: url(../images/cloud.jpeg);      /* Your code here - Link to header.jpg in the images folder */
+background-image: url(../images/main_background.jpg);      /* Your code here - Link to header.jpg in the images folder */
 background-position: center;  /* Parallax effect */
 background-repeat: no-repeat; /* Parallax effect */
 background-size: cover;       /* Parallax effect */
 color: white;
 height: 400px;                /* Parallax effect */
 font-weight: bold;
-background-color: #ddd;
+background-color: white;
 grid-column-start: 1;
 grid-column-end: -1;
 grid-row: 2/ span 1;
@@ -207,12 +209,6 @@ width: 100vw;
   grid-row: 6/ span 1;
 }
 
-footer{
-  grid-column-start: 1;
-  grid-column-end: -1;
-  grid-row: -1/ span 1;
-  background-color: black;
-}
 
 /*------------------------------------projects & publications------------------------------------------*/
 
@@ -349,5 +345,86 @@ border-width: 0px 1.5px 1.5px 1.5px;
 
 
 
+/* INDEX.HTML CSS */
+
+.main_background{
+  grid-row: 2/3;
+  grid-column: 2/3;
+}
 
 
+.main_content{
+  grid-row: 3/4;
+  grid-column: 2/3;
+}
+
+
+.row_project{
+  grid-row: 4/5;
+  grid-column: 1/-1;
+  background-color:#626569;
+}
+
+.project_flex_container{
+  display:flex;
+  justify-content:flex-end;
+  flex-wrap:wrap;
+  height:75px;
+}
+
+.project_flex_item{
+  margin:auto 50px auto auto;
+}
+
+.project_flex_item p{
+  color:white;
+}
+
+.project_flex_item2{
+  width:100px;
+  background-color:#dcdfe6;
+  margin: auto 50px auto 0px;
+  padding: 10px;
+  border-radius: 8px;
+}
+
+a.p_button:link, a.p_button:visited {
+  color:black;
+}
+
+a.p_button:hover, a.p_button:active {
+  color:#709e79;
+}
+.main_about{
+  grid-row: 5/6;
+  grid-column: 2/3;
+}
+
+.row_publication{
+  grid-row: 6/7;
+  grid-column: 1/-1;
+  background-color:#626569;
+}
+
+.publication_flex_container{
+  display:flex;
+  justify-content:flex-start;
+  flex-wrap:wrap;
+  height:75px;
+}
+
+.publication_flex_item{
+  margin:auto 0px auto 50px;
+}
+
+.publication_flex_item p{
+  color:white;
+}
+
+.publication_flex_item2{
+  width:100px;
+  background-color:#dcdfe6;
+  margin: auto 0px auto 50px;
+  padding: 10px;
+  border-radius: 8px;
+}
