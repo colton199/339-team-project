@@ -115,6 +115,7 @@ width: 100vw;
 .logo{
   grid-column: 1/ span 1;
   grid-row: 1/ span 1;
+  margin-left: 0px;
 }
 .site_title{
   grid-column: 1/ span 3;
