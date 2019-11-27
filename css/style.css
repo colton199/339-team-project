@@ -77,7 +77,9 @@ footer{
   grid-row: -1/1;   /*Can you rewrite it?*/
   text-align: center;
 }
-
+footer a{
+    color: #7CFC00;
+}
 
 .container{
   display: grid;
