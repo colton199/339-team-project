@@ -83,6 +83,10 @@ footer a{
     color: #7CFC00;
 }
 
+.active-page a{
+  color: green;
+}
+
 .container{
   display: grid;
   grid-template-columns: 1fr 5fr 1fr;
