@@ -76,7 +76,7 @@ footer{
   grid-column: 1 / -1;  /*Can you explain what this does?*/
   grid-row: 7/8;   /*Can you rewrite it?*/
   text-align: center;
-  font-size: 12px;
+  font-size: 14px;
 }
 
 footer a{
