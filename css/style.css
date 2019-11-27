@@ -76,11 +76,8 @@ footer{
   grid-column: 1 / -1;  /*Can you explain what this does?*/
   grid-row: -1/1;   /*Can you rewrite it?*/
   text-align: center;
-  font-size: 12px;
 }
-footer a{
-    color: #7CFC00;
-}
+
 
 .container{
   display: grid;
