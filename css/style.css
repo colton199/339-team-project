@@ -70,6 +70,15 @@ nav a:hover{
 }
 
 
+a:link, a:visited {
+  color:#00274c;
+}
+
+a:hover, a:active {
+  color:#709e79;
+
+}
+
 footer{
   background-color: #21252b;
   color: white;
@@ -79,8 +88,8 @@ footer{
   font-size: 14px;
 }
 
-footer a{
-    color: #709e79;
+footer a:link, footer a:visited{
+    color: #6facf2;
 }
 
 .active-page a{
@@ -506,6 +515,9 @@ a.p_button:hover, a.p_button:active {
   background-color:#dfe6ed;
 }
 
+.author_box {
+  padding-bottom:10px;
+}
 .author_box img{
   padding:20px 20px 0px 20px;
 }
@@ -640,5 +652,4 @@ a.p_button:hover, a.p_button:active {
 /********************* ARTICLE.HTML CSS ********************/
 /********************* ARTICLE.HTML CSS ********************/
 /********************* ARTICLE.HTML CSS ********************/
-
 
