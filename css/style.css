@@ -436,8 +436,9 @@ border-width: 0px 1.5px 1.5px 1.5px;
 
 
 
-/* INDEX.HTML CSS */
-
+/********************* INDEX.HTML CSS ********************/
+/********************* INDEX.HTML CSS ********************/
+/********************* INDEX.HTML CSS ********************/
 .main_background{
   grid-row: 2/3;
   grid-column: 2/3;
@@ -563,3 +564,79 @@ a.p_button:hover, a.p_button:active {
   padding: 10px;
   border-radius: 8px;
 }
+
+/********************* INDEX.HTML CSS ********************/
+/********************* INDEX.HTML CSS ********************/
+/********************* INDEX.HTML CSS ********************/
+
+
+/********************* ARTICLE.HTML CSS ********************/
+/********************* ARTICLE.HTML CSS ********************/
+/********************* ARTICLE.HTML CSS ********************/
+
+.container3{
+  display: grid;
+  grid-template-columns: 1fr 5fr 1fr;
+  grid-template-rows: 75px auto 100px;
+  width: 100vw;
+  grid-row-gap: 15px;
+  background-color:white;
+}
+
+.article_body{
+  margin-top: 20px;
+  padding:30px;
+  grid-column: 2/3;
+  grid-row: 2/3;
+  background-color:#f7f5f5;
+  display:flex;
+  flex-direction:row;
+  flex-wrap:wrap;
+  justify-content:center;
+
+}
+
+.article_body h1 {
+  font-size: 40px;
+  padding-left:0px;
+
+}
+
+.article_body h2 {
+  font-size: 30px;
+  color:#6b6a6a;
+  text-align:left;
+
+}
+
+.article_body p {
+  text-align:left;
+
+}
+
+
+.article_body p a:link, .article_body p a:visited {
+  color:#00274c;
+}
+
+.article_body p a:hover, .article_body p a:active {
+  color:#709e79;
+
+}
+
+.date {
+  text-align:left;
+  font-size:12px;
+
+}
+
+.section1{
+  margin:0px;
+}
+
+
+/********************* ARTICLE.HTML CSS ********************/
+/********************* ARTICLE.HTML CSS ********************/
+/********************* ARTICLE.HTML CSS ********************/
+
+
