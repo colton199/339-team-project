@@ -633,7 +633,9 @@ a.p_button:hover, a.p_button:active {
 .section1{
   margin:0px;
 }
-
+.publications-footer{
+ grid-row:-1/8;
+}
 
 /********************* ARTICLE.HTML CSS ********************/
 /********************* ARTICLE.HTML CSS ********************/
