@@ -846,6 +846,7 @@ p{
   .project-7{
   grid-area: 9 / 2 / 10 / 3;
   max-height: 160px;
+  width: 424px;
   margin-top: auto;
   border: 8px solid black;
   border-width: 0px 8px 8px 8px;
